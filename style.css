@@ -3,12 +3,15 @@
     margin: 0;
 }
 
+main {
+    background-image: url(https://github.com/Gustavo-S-Nascimento/Gustavo-S-Nascimento.github.io/assets/74427958/0d4b663c-481f-4807-b5c9-e81809a01df9);
+    background-repeat: no-repeat;
+}
+
 body {
     width: 950px;
     height: 950px;
-    background-image: url(https://github.com/Gustavo-S-Nascimento/Gustavo-S-Nascimento.github.io/assets/74427958/0d4b663c-481f-4807-b5c9-e81809a01df9);
     position: relative;
-    background-repeat: no-repeat;
 }
 
 .card {
