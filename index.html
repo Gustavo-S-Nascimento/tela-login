@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href='https://fonts.googleapis.com/css?family=Hind Guntur' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="card">
+        <div class="info">
+            <h1>Create account</h1>
+            <h3>Already have an account? <a href="">Sign in</a></h3>
+        </div>
+        <div class="user">
+            <form method="post" class="form">
+                <label for="username">
+                    <input type="text" name="username" id="username" placeholder="Username">
+                </label>
+                <label for="first-name">
+                    <input type="text" name="first-name" id="first-name" placeholder="First name">
+                </label>
+                <label for="last-name">
+                    <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </label>
+                <input type="submit" class="sign-up" value="">
+                <span class="button_text">Sign up</span>
+                <i class="bi bi-arrow-right"></i>
+                <label for="terms-and-conditions"></label>
+                    <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="terms" />
+                    <span class="terms-text"> I accept the <a id="conditions" href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></span>
+                </label>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
